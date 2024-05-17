@@ -1,25 +1,25 @@
 // import logo from './logo.svg';
+import React from "react";
 import "./styles.css";
+import Navbar from "../../components/Navbar";
 
-function App() {
+function PaginaContact() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-        <p>Projeto de Portfolio - MySite</p>
-
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+    <div>
+      <Navbar />
+      <div className="Container-contact">
+        <div>
+          <h1>E-mail: helioocosta18@gmail.com</h1>
+          <a
+            href="mailto:helioocosta18@gmail.com"
+            style={{ color: "#61dafb", padding: "10px 20px" }}
+          >
+             E-mail para Contato.
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default PaginaContact;

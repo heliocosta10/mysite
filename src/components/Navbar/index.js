@@ -10,16 +10,20 @@ function NavBar() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/resume">Sobre</Link>
+            <Link to="/resume">SOBRE</Link>
           </li>
           <li>
-            <Link to="/projeto">Projeto</Link>
+            <Link to="/skills">SKILLS</Link>
           </li>
           <li>
-            <Link to="/contact">Contato</Link>
+            <Link to="/projeto">PROJETOS</Link>
+          </li>
+          <li>
+            {/* <Link to="/contact">CERTIFICADOS</Link> */}
+            <Link to="/contact">CONTATO</Link>
           </li>
         </ul>
       </nav>

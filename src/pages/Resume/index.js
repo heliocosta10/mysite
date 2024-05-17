@@ -1,27 +1,32 @@
 // import logo from './logo.svg';
+import React from "react";
 import "./styles.css";
 import Navbar from "../../components/Navbar";
+import fotoskills from "../../assets/img/skills.svg";
 
-function Resume() {
+function AppHome() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-        <p>Projeto de Portfolio - MySite Resume</p>
-        <Navbar />
-
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+    <div>
+      <Navbar />
+      <div className="Container">
+        <div>
+          <img id="perfil" src={fotoskills} alt="my" />
+        </div>
+        <div className="titulo">
+          <h1>Helio Costa</h1>
+          <h3>Desenvolvedor de Software</h3>
+          <p>
+            Sou Desenvolvedor a mais de 5 anos como Full Stack, gosto muito de
+            trabalhar no Fronte-End como no Back-End e Mobile, sou formado pelo
+            IFPB no curso Técnico em Informática na área de Desenvolvimento
+            de Softwares, estou cursando Análise e Desenvolvimento de Sistemas
+            na Universidade Unicesumar.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Resume;
+
+export default AppHome;

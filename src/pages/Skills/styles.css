@@ -1,0 +1,44 @@
+.Container-Sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 300px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Container-Sobre h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hardskill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vh;
+  margin: 30px;
+}
+
+.hardskill img {
+  width: 30px;
+  height: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 35px;
+  gap: 15px;
+}
+.cards p {
+  padding: 20px;
+  margin-left: 20px;
+}
